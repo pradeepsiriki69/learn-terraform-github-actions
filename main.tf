@@ -12,10 +12,10 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "devops-tf-labs2"
+    organization = "cicdorg"
 
     workspaces {
-      name = "cicdworkspace"
+      name = "cicdwf"
     }
   }
 }
